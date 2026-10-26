@@ -1,0 +1,38 @@
+<section class="content-page leave-page">
+  <div class="page-heading">
+    <div>
+      <p class="eyebrow">LAYANAN PENGHUNI</p>
+      <h1>Pengajuan Berhenti Ngekost</h1>
+      <p class="page-subtitle">Isi data berikut untuk mengajukan penghentian sewa kamar.</p>
+    </div>
+  </div>
+
+  <div class="form-panel">
+    <div class="form-panel-heading">
+      <div><h2>Informasi Pengajuan</h2><p>Kolom bertanda * wajib diisi.</p></div>
+    </div>
+
+    <form id="leave-form" novalidate>
+      <div class="form-field">
+        <label for="id_penghuni">Nama Penghuni <span class="required">*</span></label>
+        <select id="id_penghuni" name="id_penghuni" required>
+          <option value="">Memuat daftar penghuni...</option>
+        </select>
+        <small class="field-help">Pilihan ini digunakan untuk pengujian karena halaman login belum termasuk desain Figma. Saat login diterapkan, identitas akan diambil dari session.</small>
+      </div>
+      <div class="form-field">
+        <label for="tanggal_keluar">Tanggal Keluar <span class="required">*</span></label>
+        <input type="date" id="tanggal_keluar" name="tanggal_keluar" required>
+      </div>
+      <div class="form-field">
+        <label for="alasan_keluar">Alasan Keluar <span class="required">*</span></label>
+        <textarea id="alasan_keluar" name="alasan_keluar" rows="4" minlength="5" maxlength="5000" placeholder="Tuliskan alasan berhenti ngekos..." required></textarea>
+      </div>
+      <div id="leave-feedback" class="form-feedback" role="status" aria-live="polite"></div>
+      <div class="form-actions">
+        <button class="button button-primary submit-button" type="submit"><span class="submit-label">Kirim Pengajuan</span><span class="submit-arrow" aria-hidden="true">→</span></button>
+      </div>
+    </form>
+  </div>
+  <p class="form-footnote"><span aria-hidden="true">ⓘ</span> Setelah dikirim, status pengajuan akan tercatat sebagai <strong>menunggu</strong> konfirmasi owner.</p>
+</section>

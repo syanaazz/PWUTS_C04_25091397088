@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b3d28">
+  <title>Kelola Kost</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Navigasi utama">
+      <a class="brand js-nav" href="#home" data-page="home" aria-label="Kelola Kost - Home">
+        <span>Kelola</span><span>Kost</span>
+      </a>
+      <nav class="side-nav">
+        <a class="nav-item js-nav" href="#home" data-page="home" aria-current="page">
+          <span class="nav-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1z"/></svg>
+          </span>
+          <span>Home</span>
+        </a>
+        <a class="nav-item js-nav" href="#kamar" data-page="kamar">
+          <span class="nav-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M4 5h16M4 9h16M4 13h9M4 17h8M17 12l4 4-4 4M21 16h-7"/></svg>
+          </span>
+          <span>Kamar</span>
+        </a>
+        <a class="nav-item js-nav" href="#berhenti" data-page="berhenti">
+          <span class="nav-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M10 4H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h5M14 8l5 4-5 4M8 12h11"/></svg>
+          </span>
+          <span>Berhenti</span>
+        </a>
+      </nav>
+      <div class="sidebar-note">Website<br>Kelola Kost</div>
+    </aside>
+
+    <main id="page-content" class="page-content" aria-live="polite">
+      <div class="page-loading"><span class="spinner"></span> Memuat halaman...</div>
+    </main>
+  </div>
+
+  <div id="modal-root"></div>
+  <script src="assets/jquery.min.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

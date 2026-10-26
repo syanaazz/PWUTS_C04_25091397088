@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
+  <title id="title">Ilustrasi kamar</title><desc id="desc">Placeholder gambar kamar yang dapat diganti dengan foto kamar asli.</desc>
+  <rect width="900" height="620" fill="#efe7d8"/>
+  <rect x="80" y="70" width="740" height="420" rx="14" fill="#f8f3e9" stroke="#d9cdb8" stroke-width="8"/>
+  <rect x="120" y="110" width="230" height="210" rx="8" fill="#c7d6d2" stroke="#9eafa8" stroke-width="8"/>
+  <path d="M235 110v210M120 215h230" stroke="#f7f3e8" stroke-width="12"/>
+  <rect x="405" y="280" width="300" height="145" rx="12" fill="#b7a184"/>
+  <rect x="425" y="248" width="115" height="72" rx="12" fill="#e7ded0"/>
+  <rect x="555" y="248" width="115" height="72" rx="12" fill="#e7ded0"/>
+  <rect x="385" y="410" width="340" height="42" rx="10" fill="#8c7357"/>
+  <rect x="420" y="450" width="22" height="45" fill="#725a42"/>
+  <rect x="670" y="450" width="22" height="45" fill="#725a42"/>
+  <rect x="735" y="145" width="42" height="190" rx="8" fill="#d7c8ae"/>
+  <circle cx="760" cy="240" r="5" fill="#8c7357"/>
+  <text x="450" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" fill="#6d765f">Ganti dengan foto kamar di assets/img/</text>
+</svg>
